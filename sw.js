@@ -1,6 +1,6 @@
 // Service worker de la Sábana (PWA offline). Cachea el "app shell" y deja pasar
 // las peticiones a Supabase (otra origin / POST) hacia la red.
-const CACHE = 'sabana-v56';
+const CACHE = 'sabana-v58';
 const ASSETS = ['./', './manifest.webmanifest', './icon-192.png', './icon-512.png'];
 
 self.addEventListener('install', (e) => {
